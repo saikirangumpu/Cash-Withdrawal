@@ -1,0 +1,134 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  background-color: #d4d2db;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  background-color: #150b3e;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.logo {
+  background-color: #c7d2fe;
+  height: 70px;
+  width: 70px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 34px;
+}
+
+.person-name {
+  color: #c4c4c4;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.balance-container {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.balance-mention {
+  color: #585076;
+  font-family: 'ROboto';
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.actual-balance-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.balance-amount {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.balance-label {
+  color: #382f5a;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.withdraw-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.withdraw-title {
+  color: #c4c4c4;
+  font-family: 'Roboto';
+  font-size: 33px;
+  font-weight: 500;
+}
+
+.withdraw-description {
+  color: #382f5a;
+  font-family: 'Roboto';
+  font-size: 33px;
+  font-weight: 500;
+}
+
+.amount-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.price-amount {
+  background-color: #585076;
+  color: #c4c4c4;
+  height: 40px;
+  width: 160px;
+  border-color: #c4c4c4;
+  border-width: 2px;
+  border-style: solid;
+  text-align: center;
+  font-family: 'ROboto';
+  font-size: 26px;
+  font-weight: 500;
+  border-radius: 4px;
+  margin-right: 20px;
+}
